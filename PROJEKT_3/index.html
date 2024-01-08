@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Alice Vesela -->
+  <!-- alice.hladikova@gmail.com -->
+  <!-- alice_vesela -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a5f8f3f17e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>color book</title>
+  </head>
+  <body>
+    <header id="up">
+      <div class="mode">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#colorbook">Colorbook</a></li>
+          <li><a href="#subscribe">Subscribe</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!--<i class="fa-solid fa-circle-xmark"></i>-->
+      </div>
+    </header>
+    <section class="hero-section">
+      <h1>Your colorbook</h1>
+      <div class="lift-icon">
+        <a href="#up"><i class="fa-solid fa-cable-car"></i></a>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="image-wrapper">
+        <img src="images/profile.jpg" alt="illustrated image of me" />
+      </div>
+      <article class="about-text">
+        <h2>About me</h2>
+        <p>
+          Being a junior frontend developer allows me to craft seamless digital
+          experiences. Beyond my professional endeavors, I indulge in creating
+          bespoke coloring pages, initially inspired by my own children. For me,
+          the fusion of creativity and technology unlocks boundless avenues to
+          produce unique and captivating artwork. My aim is to bring joy and
+          inspiration to people through the vibrant world of colors and design.
+        </p>
+      </article>
+    </section>
+    <section id="colorbook" class="colorbook">
+      <h2>My colorbook</h2>
+      <div class="images">
+        <div class="image">
+          <img
+            src="images/observation_tower.png"
+            ,
+            alt="colorbook picture of observation tower"
+          />
+        </div>
+        <div class="image">
+          <img src="images/museum.png" , alt="colorbook picture of museum" />
+        </div>
+        <div class="image">
+          <img src="images/zoo.png" , alt="colorbook picture of zoo" />
+        </div>
+      </div>
+    </section>
+    <section id="subscribe" class="subscribe">
+      <article class="subscribe-text">
+        <h2>Subsrcibe</h2>
+        <p>
+          Interested in more coloring sheets? Want to create custom designs
+          specifically for you? <br />Sign up today!
+        </p>
+      </article>
+      <form class="form">
+        <div class="input-box" class="valid">
+          <input type="text" placeholder="your name" class="name" />
+          <p class="empty-name message message-error">Name field is empty</p>
+          <input type="email" placeholder="your email" class="email" />
+          <p class="mail message message-error">Enter your email</p>
+          <input type="password" placeholder="your password" class="password" />
+          <input
+            type="password"
+            placeholder="confirm your password"
+            class="confirm-password"
+          />
+          <p class="OK message message-success">OK</p>
+          <p class="KO message message-error">Your passwords do not match</p>
+          <input type="submit" value="Submit" class="send" />
+        </div>
+      </form>
+    </section>
+    <footer>
+      <p>Alice Ves 2023</p>
+      <p>
+        <a href="mailto:alice.hladiova@gmail.com">Contact</a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a5f8f3f17e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
